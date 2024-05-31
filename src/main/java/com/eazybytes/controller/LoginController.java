@@ -43,6 +43,7 @@ public class LoginController {
                 response = ResponseEntity
                         .status(HttpStatus.CREATED)
                         .body("Given user details are successfully registered");
+                System.out.println(response);
             }
         } catch (Exception ex) {
             response = ResponseEntity
